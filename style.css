@@ -1,0 +1,110 @@
+body{
+background-color: #aed9e0;
+color: #023047;
+font-family: calibri;
+    width: 700px;
+    margin: 40px auto
+
+}
+
+div{
+
+	box-shadow: 1px 15px 30px;
+	color: grey;
+	border-radius: 10px;
+	padding: 40px;
+	
+
+}
+
+h1{
+	color:orange; 
+	font-family: calibri;
+	font-weight: 70;
+	letter-spacing: 3px;
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
+
+h2{
+	color: #eb5e28; 
+	font-family: calibri;
+	font-weight: 40;
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-transform: uppercase;
+
+}
+a {
+	text-decoration: none;
+	color: orange;
+
+}
+a:hover{
+	color:grey;
+}
+
+.container {
+	width: 700px;
+	margin: 50px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px
+	}
+}
+
+@media (max-width: 500px ) {
+	.container {
+		width: 400px 
+	}
+}
+
+.card-white{
+
+	background-color:#f0efeb;
+	padding: 40px;
+	box-shadow: 0px 8px 15px rgba(0,0,0,1) ;
+	border-radius: 10px;
+	margin: 40px 80px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 150px;
+}
+
+.btn-orange {
+
+	background-color:orange;
+	color:white;
+	padding: 8px 13px;
+	border-radius: 8px;
+
+}
+.btn-orange:hover{
+	background-color: #aed9e0;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: #aed9e0;
+}
+.list-inline i:hover{
+	color: #aed9e0;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
